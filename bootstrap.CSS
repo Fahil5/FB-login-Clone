@@ -1,0 +1,139 @@
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(238, 238, 238, 0.678);
+}
+
+.left-container h1 {
+  color: #2c7fec;
+  font-size: 60px;
+  margin-bottom: 40px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.three {
+  color: black;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  top: -28px;
+  position: relative;
+}
+
+table {
+  height: 352px;
+  width: 390px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+tr,
+td {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+input {
+  margin-top: 15px;
+  height: 43px;
+  width: 342px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: -10px;
+  border-style: solid;
+  border-color: rgb(238, 234, 234);
+  padding-left: 14px;
+}
+
+input::placeholder {
+  font-size: 17px;
+  opacity: 0.8;
+}
+
+.one {
+  color: #2f85f5;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  bottom: -15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  height: 1px;
+  width: 357px;
+  background-color: rgb(211, 211, 211);
+  border: none;
+  margin-top: 40px;
+}
+
+button {
+  background-color: rgb(44, 182, 44);
+  border-color: rgb(44, 182, 44);
+  border-radius: 6px;
+  height: 50px;
+  width: 200px;
+  margin-top: 16px;
+  border-style: solid;
+}
+
+.two {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.four {
+  color: black;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.five {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.six {
+  top: 25px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100vh;
+}
+.left-container {
+}
+.right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .three {
+    font-size: 20px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .left-container h1 {
+    font-size: 40px;
+  }
+  .right-container {
+    text-align: center;
+  }
+}
